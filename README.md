@@ -16,3 +16,6 @@ After this attempt, it bacame obvious that there was an improvement in the accur
 - Out Of Fold predictions may also enhance the generalization of the model(s)
 - As all the testset images are from a different source than the training dataset, external image files should be merged into the training dataset
 - Heavy image augmentation techniques is possible to enhance accuracy, as the training dataset is quite small (~350 images) 
+
+## Actions taken so far
+- A downsized dataset is going to be used of 1024x1024 resolution and by using a SegFormer model architecture, it will be possible to train the model as it requires far less recources than the U-Net
